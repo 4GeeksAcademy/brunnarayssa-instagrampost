@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    display: flex;
+}
+.containerIgPost {
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+.headerIgPost {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.headerIgPost > :last-child {
+    font-size: 1.5rem;
+}
+.headerIcons {
+    display: flex;
+}
+.headerIcons > :first-child {
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.headerIcons > :nth-child(2n) {
+    display: flex;
+   flex-direction: column;
+}
+.imgIgPost {
+    display: flex;
+    object-fit: cover;
+}
+.imgIgPost > img {
+    width: 100%;
+}
+.iconsIgPost {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.footerIgPost {
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
